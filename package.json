@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port 5175 --strictPort",
-    "build": "vite build",
-    "preview": "vite preview --port 5175 --strictPort",
+    "build": "vite build --mode development",
+    "preview": "vite preview --port 5175 --strictPort --mode development",
     "lint": "eslint ."
   },
   "dependencies": {
