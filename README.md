@@ -48,3 +48,10 @@ export default tseslint.config({
   },
 })
 ```
+
+
+env:
+```
+VITE_REMOTE_LOGIN="http://localhost:5173/assets/remoteEntry.js"
+VITE_REMOTE_HOME="http://localhost:5177/assets/remoteEntry.js"
+```
